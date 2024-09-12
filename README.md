@@ -14,7 +14,9 @@
 ### ROMP vs 최적화된 모델 비교
 <img src="readmeImage/Numerical_Comparison.png" alt="Numerical Comparison"/>
 
-### TrainedModel Download
+### 학습 모델 다운로드
+
+용량이 매우 커서 구글 드라이브에 올려 두었습니다.
 
 https://drive.google.com/file/d/1GUbRLU4b3oeR9rxvUGFpBIotrB63HO1i/view?usp=drive_link
 
