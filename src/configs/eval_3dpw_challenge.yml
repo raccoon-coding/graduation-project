@@ -1,0 +1,22 @@
+ARGS:
+ tab: 'pw3d_challenge'
+ eval_dataset: 'pw3d_challenge'
+ GPUS: 0,1
+ model_version: 1
+ 
+ val_batch_size: 64
+ nw_eval: 2
+ eval: True
+ collision_aware_centermap: False
+ collision_factor: 0.2
+ calc_PVE_error: False
+
+ backbone: 'resnet'
+ centermap_size: 64
+ centermap_conf_thresh: 0.2
+ model_precision: 'fp32'
+
+ old_version: True
+ gmodel_path: /mnt2/BEV_ms/checkpoints/resnet_cm64_V1_resnet_on_gpu0,1_val/resnet_cm64_V1_resnet_epoch_19.pkl
+ dataset_rootdir: "/mnt2/BRV_Train/msc/3DPW" #'/path/to/dataset/3DPW'
+ output_dir: '/mnt2/BEV_ms/ROMP_epoch6/' #'/path/to/vibe_db where 3dpw_test_db.pt located'

@@ -1,0 +1,29 @@
+
+ARGS:
+ tab: 'single_image_test'
+ GPUS: 0
+ multi_person: True
+ kernel_sizes: [5]
+ use_coordmaps: True
+ fine_tune: True
+ eval: False
+ webcam: False
+ video_or_frame: False
+
+ backbone: 'resnet' #'resnet' #
+ input_size: 512
+ centermap_size: 64
+ model_precision: 'fp32'
+ val_batch_size: 1
+ nw: 1
+ gmodel_path: '/mnt2/BEV_ms/checkpoints/resnet_cm64_V1_resnet_on_gpu0,1_val/resnet_cm64_V1_resnet_epoch_19.pkl' #'../trained_models/ROMP_resnet50.pkl'
+ save_visualization_on_img: True
+
+ # default: run on demo/images and the results would be saved at demo/images_results
+ # for video /path/to/project/CenterHMR_demo/videos/Messi_1
+ demo_image_folder: '/mnt2/BEV_ms/ROMP/demo/images' #'../demo/videos/Messi_1'
+ output_dir: '/mnt2/BEV_ms/ROMP_V1/'
+ save_mesh: True
+ save_centermap: False
+ save_dict_results: True
+ multiprocess: False

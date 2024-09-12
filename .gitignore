@@ -1,0 +1,19 @@
+demo/videos
+demo/animation
+demo/images_results
+demo/000003*
+trained_models
+models/smplx
+models/smpl
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.log
+*.mp4
+src/utils/bvh_utils.py
+
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
