@@ -1,6 +1,6 @@
 # ROMP + 지식 증류 (Knowledge Distillation, KD)
 
-이 코드는 ROMP(Monocular One-stage Regression of Multiple 3D People) 모델에 지식 증류를 적용하여 컴퓨팅 리소스를 절감하는 방법을 제시합니다. 본 연구에서는 ResNet-50을 백본으로 한 ROMP를 Teacher 모델로, ResNet-18을 백본으로 한 더 작은 ROMP 모델을 Student 모델로 설정하여 지식 증류를 수행했습니다. 그 결과, 성능을 유지하면서 약 35%의 컴퓨팅 리소스 절감을 달성했습니다. 이러한 성과는 고성능 컴퓨팅이 요구되는 판타지 영화 제작과 같은 산업에서 비용 절감을 가능하게 할 것으로 기대됩니다.
+이 코드는 ROMP(Monocular One-stage Regression of Multiple 3D People) 모델에 지식 증류를 적용하여 컴퓨팅 리소스를 절감하는 방법을 제시합니다. 본 연구에서는 ResNet-50을 백본으로 한 ROMP를 Teacher 모델로, ResNet-18을 백본으로 한 더 작은 ROMP 모델을 Student 모델로 설정하여 지식 증류를 수행했습니다. 그 결과, 성능을 유지하면서 약 35%의 컴퓨팅 리소스 절감을 달성했습니다.
 
 ## 지식 증류 과정
 <img src="readmeImage/Actual_Application_Photo.png" alt="Actual_Application_Photo"/>
@@ -13,6 +13,10 @@
 
 ### ROMP vs 최적화된 모델 비교
 <img src="readmeImage/Numerical_Comparison.png" alt="Numerical Comparison"/>
+
+### TrainedModel Download
+
+https://drive.google.com/file/d/1GUbRLU4b3oeR9rxvUGFpBIotrB63HO1i/view?usp=drive_link
 
 ### 참조
 
